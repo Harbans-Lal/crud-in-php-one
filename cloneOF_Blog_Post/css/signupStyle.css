@@ -1,0 +1,12 @@
+.form{
+			width: 40%;
+		}
+		.left{
+			margin-left: 33px;
+		}
+		.container{
+			box-shadow: 2px 5px 16px rgba(40, 56, 110, 15);
+			height: 400px;
+			display: flex;
+			justify-content: center;
+			align-items: center;		
