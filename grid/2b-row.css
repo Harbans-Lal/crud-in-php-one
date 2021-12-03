@@ -1,0 +1,17 @@
+/* (A) GRID CONTAINER */
+#grid-row {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* NOTE: ROW 3 ONWARDS WILL BE AUTO HEIGHT */
+  grid-template-rows: 50px 100px;
+
+  /* SAME AS COLUMNS, WE CAN USE REPEAT AS WELL
+  grid-template-rows: repeat(4, 50px); */
+}
+
+/* (B) GRID CELLS */
+div.cell {
+  background: LightBlue;
+  border: 1px solid Blue;
+  padding: 10px;
+}

@@ -1,0 +1,19 @@
+/* (A) GRID CONTAINER */
+#grid-line {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+
+/* (B) GRID CELL */
+div.cell {
+  background: #feffc4;
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+
+/* (C) SPAN MULTIPLE COLUMNS */
+.spancol {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
